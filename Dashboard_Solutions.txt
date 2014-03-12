@@ -1,0 +1,60 @@
+Dashboard
+
+--------------------------------------------
+Geographic Distribution of Profit and Sales
+--------------------------------------------
+1) Connect to Super Store Data (English)
+2) Drag City to chart area
+3) Drag Profit to Color
+4) Drag Sales to Size
+5) Click on Size under Marks and increase it
+6) Edit colors for measure
+	- Select Custom Diverging
+	- Select Stepped color (6 steps)
+	- Select Use full color range
+
+
+--------------------------------------------
+Profit by Department
+--------------------------------------------
+1) Drag Profit to Marks area
+2) Drag department to color
+3) Drag Profit to 'Angle' in Marks area
+4) Drag Profit to labels
+5) Click on arrows near SUM(Profit) marked with Abc 123 and select Quick Table Calculation "Percent of Total"
+
+--------------------------------------------
+Analysis of Sales and Profit by Department
+--------------------------------------------
+1) Drag Department and Category to Column
+2) Drag Sales and Profit to rows
+3) Click on the arrows mark on SUM(Profit) and Select dual axis
+4) Change Marks to Bar
+5) Select Profit under Measure Name and change the mark to Line
+6) Drag Profit to Color 
+
+--------------------------------------------
+Cycle Plot
+--------------------------------------------
+1) Drag Order date to Columns
+2) Drag Order date again to column and change the format to Month
+3) Change the order of Order Date MONTH first and then YEAR
+4) Drag Sales o rows
+5) Right click on y axis and Add Reference line
+
+
+--------------------------------------------
+Total Sales - Data Blending
+--------------------------------------------
+1) Connect to Data Sources and add coffe data
+2) Drag State to Columns
+3) Drag Sales to rows
+4) Select the other data source and again drag Sales to rows
+5) Right click in measure window and create a new calculated field
+6) Name the field total sales and put in the following formula
+	SUM([Sales]) + SUM([Sample - Coffee Chain (Access)].[Sales])
+7) Drag Total Sales to rows
+8) Drag SUM(Sales) from rows to the y axis
+9) Drag SUM(Total Sales) from rows to the y axis
+
+
