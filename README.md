@@ -8,7 +8,7 @@ The goal of the lab is to create a dashboard using Tableau and also use charts a
 2) The worksheet containing the solution is in the repository
 
 Dashboard
-![Dashboard](sonalisharma.github.com/info247-lab-07-tableau/dashboard.png)
+![Dashboard](https://github.com/sonalisharma/info247-lab-07-tableau/blob/master/dashboard.png)
 
 
 
